@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin&family=Josefin+Sans&family=Karla:wght@400;700&family=Mukta+Vaani:wght@500&family=Poppins&family=Rubik+Moonrocks&family=Titan+One&family=Ubuntu&display=swap');
+
+*{
+    font-family: 'Ubuntu';
+    padding: 0;
+    margin: 0;
+    background-color: rgb(220, 235, 240);
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+.logo{
+    margin-left: 10px;
+    font-size: 20px;
+    padding: 10px;
+    
+}
+.nav_content{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.nav_content li{
+    margin: 20px;
+    cursor: pointer;
+}
+
+.body .name{
+    font-weight: bold;
+}
+.name span{
+    color: orangered;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left_side{
+    
+    margin: 50px;
+    margin-top: 0;
+}
+.right_side img{
+    height: 500px;
+    margin-right: 30px;
+    margin-top: 0;
+}
+#download_cv{
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    width: 120px;
+    margin-top: 15px;
+    margin-right: 40px;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+}
+.linkedin, .github{
+    height: 40px;
+    margin-right: 10px;
+}
+ul a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Project page */
+.project{
+    margin: 40px;
+    text-decoration: underline;
+}
+.projects_list li{
+    margin-left: 60px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.project_click_here{
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    width: 120px;
+    margin-right: 40px;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+}
+.projext_link{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+/* footer */
+.footer_content{
+    background-color: black;
+    color: grey;
+    text-align: center;
+    padding: 20px;
+}
